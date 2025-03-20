@@ -152,3 +152,16 @@ a {
     color: black;
     font-weight: bold;
 }
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: space-between;
+    width: 80%;
+}
