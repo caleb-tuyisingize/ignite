@@ -4,10 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
+    <section class="aboutuni">
+        <ol>
+            <li>About the university</li>
+            <li>faculties</li>
+        </ol>
+    </section><br>
     <nav>
         <center>
             Logo
@@ -102,44 +112,35 @@
 
     <!-- The next stepp after slides -->
 
-    <section class="main">
-        <table>
-            <tr>
-                <td>
-                    <h1 class="study">Study</h1>
-                    <br>
-                    <h2><b>Future is here!</b></h2>
-                </td>
-                <td>
-                    <p class="the-future-is">Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.</p>
-                </td>
-            </tr>
-        </table>
-        <table>
-
-            <tr>
-                <td>
-                    <h1>Which course are you looking for?</h1><br>
-                    <select name="" id="" class="selection">
-                        <option value="">All</option>
-                        <option value="">Bachelor's and Intergrated Master's Degrees</option>
-                        <option value="">Master's Degrees</option>
-                        <option value="">Doctorates</option>
-                    </select><br>
-                    <input type="text" placeholder="Please enter course keywords..." class="course-keywords"><br>
-                    <input type="submit" value="Search" name="search"><br>
-                </td>
-                <td>
-                    <h5>Courses from A to Z:</h5>
-                    <a href="#">Bachelor's and Integrated</a><br>
-                    <a href="#">Master’s Degrees</a><br>
-                    <a href="#">Master’s Degrees</a><br>
-                    <a href="#">Doctorates</a><br>
-                </td>
-            </tr>
-        </table>
+    <section class="study">
+        <div class="futura">
+        <h1>Study</h1>
+        <h2>Your future is here !</h2>
+        <p>
+            Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic 
+            path of excellence and properly valued by the labour market.
+        </p>
+    </div><br>
+        <div class="courses">
+        <span>
+            Which course are you looking for?
+        </span><br> 
+        <select name="cours" id="" class="selection">
+            <option value="">All</option>
+            <option value="">Bachelor's and Intergrated Master's Degrees</option>
+            <option value="">Master's Degrees</option>
+            <option value="">Doctorates</option>
+        </select><br><br>
+        <input type="text" placeholder="Please enter course keywords..." class="course-keywords"><br><br>
+        <input type="submit" value="Search" name="search"><br>
+    </div>
+    <div class="divis">
+        <h3>Courses from A to Z:</h5>
+        <a href="#">Bachelor's and Integrated Master’s Degrees</a><br><br>
+        <a href="#">Master’s Degrees</a><br><br>
+        <a href="#">Doctorates</a>
+    </div>
     </section>
-
 
 
     <!-- Next of the main -->
